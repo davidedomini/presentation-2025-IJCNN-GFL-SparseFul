@@ -95,4 +95,4 @@ Cooperative Intelligence in Society 5.0],
 
 == Introduction
 
-TBD
+#figure(image("images/context.svg", width: 85%))
