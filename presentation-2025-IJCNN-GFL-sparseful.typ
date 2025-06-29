@@ -252,14 +252,14 @@ _A novel, *self-organizing* learning paradigm that *holistically* tackles scalab
   Federations #emph[match the underlying distributions]
 ]
 
-== Efficiency through Model Compression
-- #emph[Sparse Models]: Devices *prune a fraction of weights* to create smaller models, reducing bandwidth and energy use
+// == Efficiency through Model Compression
+// - #emph[Sparse Models]: Devices *prune a fraction of weights* to create smaller models, reducing bandwidth and energy use
 
-- #emph[Compressed Similarity Checks]: These lightweight models are *exchanged during similarity checks*, cutting computation and communication costs
+// - #emph[Compressed Similarity Checks]: These lightweight models are *exchanged during similarity checks*, cutting computation and communication costs
 
-- #emph[Compressed Training]: Models remain sparse (and optionally quantized) during learning, enabling *faster training and inference* with minimal accuracy loss
+// - #emph[Compressed Training]: Models remain sparse (and optionally quantized) during learning, enabling *faster training and inference* with minimal accuracy loss
 
-- #emph[Quantization]: Using 8-bit weights shrinks model size to ~25% of the original, *improving communication efficiency* with little impact on performance.
+// - #emph[Quantization]: Using 8-bit weights shrinks model size to ~25% of the original, *improving communication efficiency* with little impact on performance.
 
 #focus-slide[
   #text(weight: "bold")[Preliminary Results]
@@ -300,6 +300,6 @@ _A novel, *self-organizing* learning paradigm that *holistically* tackles scalab
 - #emph[Standardization]: The field lacks mature tools for evaluation, building better benchmarks is essential
 
 == Conclusions
-- *SParSeFuL* introduces a new framework to greatly reduce energy consumptions , bandwidth, and latency while keeping high accuracy, combining federated learning with model compression
-- *Aligned with Society 5.0*: By removing central servers and minimizing communication, it supports human-centered, sustainable smart societies
-- *Promising Results*: Early experiments show strong gains in efficiency with little accuracy loss
+- #emph[SParSeFuL] introduces a new framework to reduce energy consumptions , bandwidth, and latency while keeping high accuracy, combining *federated learning* with *models compression* and *self-organizing programming paradigms*
+- #emph[Aligned with Society 5.0]: By removing central servers and minimizing communication, it supports human-centered, sustainable smart societies
+- #emph[Promising Results]: Early experiments show strong gains in efficiency with little accuracy loss
