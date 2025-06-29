@@ -205,7 +205,7 @@ _A novel, *self-organizing* learning paradigm that *holistically* tackles scalab
 
 == Self-organizing Computational Model
 
-#emph[Behaviour]: execution with #underline[async rounds] \
+#emph[Behaviour]: execution with #underline[rounds] \
 #emph[Interaction]: *neighbours* #underline[messages exchange] \
 #emph[Alignment]: each device execution is *aligned* with the others 
 
@@ -224,10 +224,10 @@ _A novel, *self-organizing* learning paradigm that *holistically* tackles scalab
   #figure(image("images/ac-messages-propagation.svg", width: 74%))
 ]
 
-#only(4)[
-  4. Sleep until next *round*...
-  #figure(image("images/ac.svg", width: 74%))
-]
+// #only(4)[
+//   4. Sleep until next *round*...
+//   #figure(image("images/ac.svg", width: 74%))
+// ]
 
 == Loss-based similarity
 
